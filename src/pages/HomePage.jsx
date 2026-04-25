@@ -41,7 +41,7 @@ function HomePage() {
 
             <div style={styles.container}>
                 <div style={styles.card}>
-                    <h1 style={styles.title}>🎯 AI Resume Screener</h1>
+                    <h1 style={styles.title}>AI Resume Screener</h1>
                     <p style={styles.subtitle}>
                         Upload your resume and paste the job description
                         to get instant AI-powered analysis!
@@ -52,7 +52,7 @@ function HomePage() {
                     <form onSubmit={handleSubmit}>
                         <div style={styles.inputGroup}>
                             <label style={styles.label}>
-                                📄 Upload Resume (PDF only)
+                                 Upload Resume (PDF only)
                             </label>
                             <input
                                 type="file"
@@ -64,7 +64,7 @@ function HomePage() {
 
                         <div style={styles.inputGroup}>
                             <label style={styles.label}>
-                                💼 Paste Job Description
+                                Paste Job Description
                             </label>
                             <textarea
                                 value={jobDescription}
@@ -80,7 +80,7 @@ function HomePage() {
                             type="submit"
                             style={styles.btn}
                             disabled={loading}>
-                            {loading ? '⏳ Analyzing...' : '🚀 Analyze Resume'}
+                            {loading ? ' Analyzing...' : ' Analyze Resume'}
                         </button>
                     </form>
                 </div>

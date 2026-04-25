@@ -14,7 +14,7 @@ function Navbar(){
     return (
          <nav style={styles.nav}>
             <Link to="/" style={styles.brand}>
-                🎯 Resume Screener
+                 Resume Screener
             </Link>
 
             <div style={styles.links}>

@@ -31,7 +31,7 @@ function HistoryPage() {
     if (loading) return (
         <div style={styles.page}>
             <Navbar />
-            <div style={styles.loading}>⏳ Loading history...</div>
+            <div style={styles.loading}>Loading history...</div>
         </div>
     );
 
@@ -41,7 +41,7 @@ function HistoryPage() {
 
             <div style={styles.container}>
                 <div style={styles.header}>
-                    <h1 style={styles.title}>📋 Your Scan History</h1>
+                    <h1 style={styles.title}>Your Scan History</h1>
                     <button
                         onClick={() => navigate('/')}
                         style={styles.newScanBtn}>
@@ -55,7 +55,7 @@ function HistoryPage() {
                         <button
                             onClick={() => navigate('/')}
                             style={styles.btn}>
-                            Analyze Your First Resume 🚀
+                            Analyze Your First Resume 
                         </button>
                     </div>
                 ) : (

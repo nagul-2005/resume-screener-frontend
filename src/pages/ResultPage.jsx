@@ -44,7 +44,7 @@ function ResultPage() {
     if (loading) return (
         <div style={styles.page}>
             <Navbar />
-            <div style={styles.loading}>⏳ Loading results...</div>
+            <div style={styles.loading}> Loading results...</div>
         </div>
     );
 
@@ -58,7 +58,7 @@ function ResultPage() {
 
                 {/* Score Card */}
                 <div style={{...styles.card, textAlign: 'center'}}>
-                    <h1 style={styles.title}>📊 Resume Analysis Result</h1>
+                    <h1 style={styles.title}>Resume Analysis Result</h1>
                     <div style={{
                         ...styles.scoreCircle,
                         background: scoreStyle.background
@@ -72,7 +72,7 @@ function ResultPage() {
 
                 {/* Strengths */}
                 <div style={styles.card}>
-                    <h2 style={styles.sectionTitle}>✅ Strengths</h2>
+                    <h2 style={styles.sectionTitle}>Strengths</h2>
                     <ul style={styles.list}>
                         {result.strengths.map((item, i) => (
                             <li key={i} style={styles.strengthItem}>
@@ -84,7 +84,7 @@ function ResultPage() {
 
                 {/* Missing Skills */}
                 <div style={styles.card}>
-                    <h2 style={styles.sectionTitle}>❌ Missing Skills</h2>
+                    <h2 style={styles.sectionTitle}> Missing Skills</h2>
                     <ul style={styles.list}>
                         {result.missing_skills.map((item, i) => (
                             <li key={i} style={styles.missingItem}>
@@ -96,7 +96,7 @@ function ResultPage() {
 
                 {/* Suggestions */}
                 <div style={styles.card}>
-                    <h2 style={styles.sectionTitle}>💡 Suggestions</h2>
+                    <h2 style={styles.sectionTitle}>Suggestions</h2>
                     <ul style={styles.list}>
                         {result.suggestions.map((item, i) => (
                             <li key={i} style={styles.suggestionItem}>

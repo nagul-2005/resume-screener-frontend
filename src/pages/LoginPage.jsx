@@ -35,7 +35,7 @@ function LoginPage() {
     return (
         <div style={styles.container}>
             <div style={styles.card}>
-                <h1 style={styles.title}>🔐 Login</h1>
+                <h1 style={styles.title}> Login</h1>
 
                 {error && <p style={styles.error}>{error}</p>}
 

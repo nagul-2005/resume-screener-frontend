@@ -24,7 +24,7 @@ function SignupPage() {
         setError('Username cannot contain spaces!')
         return
         }
-        
+
         if (formData.password !== formData.confirmPassword) {
             setError('Passwords do not match!');
             return;
@@ -51,7 +51,7 @@ function SignupPage() {
     return (
         <div style={styles.container}>
             <div style={styles.card}>
-                <h1 style={styles.title}>✨ Create Account</h1>
+                <h1 style={styles.title}>Create Account</h1>
 
                 {error && <p style={styles.error}>{error}</p>}
 
